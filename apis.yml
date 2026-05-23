@@ -1,0 +1,96 @@
+aid: root-insurance
+url: https://raw.githubusercontent.com/api-evangelist/root-insurance/refs/heads/main/apis.yml
+name: Root Insurance
+kind: company
+description: >-
+  Root is a U.S. app-first auto insurer that prices policies primarily on real
+  driving behavior captured by smartphone telematics. The Root mobile app
+  handles enrollment, telematics scoring, policy management, claims, and
+  optional roadside assistance, with renters insurance as an add-on line. Root
+  has reorganized its tech stack around APIs to power embedded auto insurance
+  with partners such as Carvana and Hyundai Capital America; partner APIs are
+  gated and not publicly documented. Note: Root Insurance (joinroot.com) is
+  distinct from the unrelated Root Platform (rootplatform.com) insurtech in
+  South Africa / UK.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Insurance
+  - Auto
+  - Telematics
+  - Insurtech
+  - Embedded Insurance
+  - Mobile
+  - Usage-Based
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis:
+  - aid: root-insurance:consumer-app
+    name: Root Consumer Mobile App
+    description: >-
+      iOS and Android app that measures driving behavior via smartphone
+      telematics, generates a usage-based price, and handles enrollment,
+      policy management, and claims (3-minute claim filing). Telematics is not
+      used in California or Maryland. No public API.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.joinroot.com/
+    baseURL: https://www.joinroot.com
+    tags:
+      - Consumer
+      - Mobile
+      - Telematics
+      - Quote
+      - Bind
+      - Claims
+    properties:
+      - type: ProductPage
+        url: https://www.joinroot.com/
+      - type: HowItWorks
+        url: https://www.joinroot.com/how-it-works
+      - type: RoadsideAssistance
+        url: https://www.joinroot.com/roadside-assistance
+      - type: Renters
+        url: https://www.joinroot.com/renters
+  - aid: root-insurance:embedded-auto
+    name: Root Embedded Auto Insurance (Partner API)
+    description: >-
+      Root's API-ified auto insurance stack used to embed quote, bind, and
+      issuance into partner channels. Reference deployments include Carvana
+      (vehicle-purchase auto insurance) and Hyundai Capital America. No public
+      API documentation; integration is sales-led via Root's partnerships
+      team.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.joinroot.com/
+    baseURL: https://www.joinroot.com
+    tags:
+      - Embedded
+      - Partners
+      - Auto
+      - API
+      - Quote
+      - Bind
+    properties:
+      - type: ProductPage
+        url: https://www.joinroot.com/
+      - type: CorporateSite
+        url: https://ir.joinroot.com/
+      - type: CarvanaPartnership
+        url: https://www.carriermanagement.com/news/2025/04/04/273836.htm
+common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/root-insurance-company
+  - type: Website
+    url: https://www.joinroot.com/
+  - type: InvestorRelations
+    url: https://ir.joinroot.com/
+  - type: Careers
+    url: https://www.joinroot.com/careers
+  - type: Plans
+    url: plans/root-insurance-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/root-insurance-rate-limits.yml
+  - type: FinOps
+    url: finops/root-insurance-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
