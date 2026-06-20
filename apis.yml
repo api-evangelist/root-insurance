@@ -12,7 +12,7 @@ description: >-
   gated and not publicly documented. Note: Root Insurance (joinroot.com) is
   distinct from the unrelated Root Platform (rootplatform.com) insurtech in
   South Africa / UK.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Insurance
   - Auto
@@ -32,7 +32,7 @@ apis:
       telematics, generates a usage-based price, and handles enrollment,
       policy management, and claims (3-minute claim filing). Telematics is not
       used in California or Maryland. No public API.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.joinroot.com/
     baseURL: https://www.joinroot.com
     tags:
@@ -59,7 +59,7 @@ apis:
       (vehicle-purchase auto insurance) and Hyundai Capital America. No public
       API documentation; integration is sales-led via Root's partnerships
       team.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.joinroot.com/
     baseURL: https://www.joinroot.com
     tags:
