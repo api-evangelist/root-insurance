@@ -77,6 +77,12 @@ apis:
       - type: CarvanaPartnership
         url: https://www.carriermanagement.com/news/2025/04/04/273836.htm
 common:
+  - type: VulnerabilityDisclosure
+    url: security/root-insurance-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/root-insurance-domain-security.yml
+  - url: https://www.joinroot.com/blog
+    type: Blog
   - type: LinkedIn
     url: https://www.linkedin.com/company/root-insurance-company
   - type: Website
