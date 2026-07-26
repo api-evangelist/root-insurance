@@ -12,7 +12,19 @@ description: >-
   gated and not publicly documented. Note: Root Insurance (joinroot.com) is
   distinct from the unrelated Root Platform (rootplatform.com) insurtech in
   South Africa / UK.
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: free
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Free
+  confidence: medium
+  source:
+    - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/root-insurance.png
 tags:
   - Insurance
   - Auto
@@ -22,7 +34,7 @@ tags:
   - Mobile
   - Usage-Based
 created: '2026-05-23'
-modified: '2026-05-23'
+modified: '2026-07-25'
 specificationVersion: '0.19'
 apis:
   - aid: root-insurance:consumer-app
@@ -51,31 +63,6 @@ apis:
         url: https://www.joinroot.com/roadside-assistance
       - type: Renters
         url: https://www.joinroot.com/renters
-  - aid: root-insurance:embedded-auto
-    name: Root Embedded Auto Insurance (Partner API)
-    description: >-
-      Root's API-ified auto insurance stack used to embed quote, bind, and
-      issuance into partner channels. Reference deployments include Carvana
-      (vehicle-purchase auto insurance) and Hyundai Capital America. No public
-      API documentation; integration is sales-led via Root's partnerships
-      team.
-    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
-    humanURL: https://www.joinroot.com/
-    baseURL: https://www.joinroot.com
-    tags:
-      - Embedded
-      - Partners
-      - Auto
-      - API
-      - Quote
-      - Bind
-    properties:
-      - type: ProductPage
-        url: https://www.joinroot.com/
-      - type: CorporateSite
-        url: https://ir.joinroot.com/
-      - type: CarvanaPartnership
-        url: https://www.carriermanagement.com/news/2025/04/04/273836.htm
 common:
   - type: VulnerabilityDisclosure
     url: security/root-insurance-vulnerability-disclosure.yml
