@@ -51,6 +51,13 @@ apis:
       - Consumer
       - Mobile
       - Telematics
+      - Quotes
+      - Bind
+      - Claims
+    tags_raw:
+      - Consumer
+      - Mobile
+      - Telematics
       - Quote
       - Bind
       - Claims
